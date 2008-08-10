@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<%= render :partial => 'shared/header', :locals => {:title => yield(:title)} %>
+<body>
+  <div id="wrapper">
+      <div id="menu">
+          <h1><a href="http://www.soluvas.com"><%= image_tag 'logo.gif', :size => "121x22", :alt => "Books Online" %> </a></h1>
+          <ul id="navblue">
+              <li><a href="http://www.soluvas.com">bestsellers</a></li>
+              <li><a href="http://www.soluvas.com">magazines</a></li>
+              <li><a href="http://www.soluvas.com">e-books</a></li>
+              <li><a href="http://www.soluvas.com">contact</a></li>
+          </ul>
+      </div><!-- end menu -->
+      <div id="header">
+          <ul id="navtop">
+              <li><a href="http://www.soluvas.com">Kids</a></li>
+              <li><a href="http://www.soluvas.com">Adults</a></li>
+              <li><a href="http://www.soluvas.com">Science</a></li>
+              <li><a href="http://www.soluvas.com">Commerce</a></li>
+              <li><a href="http://www.soluvas.com">Literature</a></li>
+          </ul>
+          <h2><%= image_tag "title_explore.gif", :width => "185", :height => "20", :alt => "explore your knowledge" %></h2>
+          <ul id="explore">
+              <li><a href="http://www.soluvas.com">get online tutorials</a></li>
+              <li><a href="http://www.soluvas.com">books for all age</a></li>
+              <li><a href="http://www.soluvas.com">grab the  encyclopedia</a></li>
+          </ul>
+          <div id="books"></div>
+          <div id="girl"></div>
+      </div><!-- end header -->
+      <div class="divider"></div>
+      <div id="searchbar">
+          <form action="/" method="get">
+              Title: <input name="title" type="text" value="" class="text" />
+              Author: <input name="author" type="text" value="" class="text" />
+	      ISBN: <input name="isbn" type="text" value="" class="text" /> 
+	      Code: <input name="codeNumber" type="text" value="" class="text" /> 
+              <input type="submit" value="Go" class="submit" />
+          </form>
+      </div><!-- end searchbar -->
+      
+      <div id="orangerow">
+          
+          <div class="nav">
+              <h2 id="categories">Categories</h2>
+              <ul>
+                  <li><a href="http://www.soluvas.com">Biography</a></li>
+                  <li><a href="http://www.soluvas.com">Children's</a></li>
+                  <li><a href="http://www.soluvas.com">Crime &amp; Thrillers</a></li>
+                  <li><a href="http://www.soluvas.com">Food &amp; Drink</a></li>
+                  <li><a href="http://www.soluvas.com">General Fiction</a></li>
+                  <li><a href="http://www.soluvas.com">Health</a></li>
+                  <li><a href="http://www.soluvas.com">History</a></li>
+                  <li><a href="http://www.soluvas.com">Home &amp; Garden</a></li>
+                  <li><a href="http://www.soluvas.com">Science</a></li>
+                  <li><a href="http://www.soluvas.com">Romantic Fiction</a></li>
+                  <li><a href="http://www.soluvas.com">SF &amp; Fantasy</a></li>
+                  <li><a href="http://www.soluvas.com">Sport</a></li>
+                  <li><a href="http://www.soluvas.com">Entertainment</a></li>
+              </ul>
+          </div><!-- end .nav -->
+          
+          <div class="col">
+          	<%= yield %>
+          </div><!-- end .col -->
+          
+		  <div id="whitey"></div>
+          <div class="clear"><div class="fix"></div></div>
+      </div><!-- end orangerow -->
+	  
+      <%= render :partial => 'shared/greenrow' %>
+      <div id="footer">
+         <%= render :partial => 'shared/footer' %>
+      </div><!-- end footer -->
+	  
+  </div><!-- end wrapper -->
+</body>
+</html>

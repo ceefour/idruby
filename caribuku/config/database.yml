@@ -1,0 +1,17 @@
+development:
+  adapter: mysql
+  database: caribuku_dev
+  username: elgg
+  password: elgg
+
+test:
+  adapter: mysql
+  database: caribuku_test
+  username: elgg
+  password: elgg
+  
+production:
+  adapter: mysql
+  database: caribuku_prod
+  username: elgg
+  password: elgg

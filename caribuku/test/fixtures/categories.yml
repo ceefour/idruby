@@ -1,0 +1,38 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+ id: 1
+ name: biography
+two:
+ id: 2
+ name: crime
+three:
+ id: 3
+ name: science
+four:
+ id: 4
+ name: foods
+five:
+ id: 5
+ name: general fiction
+six:
+ id: 6
+ name: healt
+seven:
+ id: 7
+ name: history
+eight:
+ id: 8
+ name: Romantic
+nine:
+ id: 9
+ name: sport
+ten:
+ id: 10
+ name: fantasy
+eleven:
+ id: 11
+ name: entertainment
+twelev:
+ id: 12
+ name: others
