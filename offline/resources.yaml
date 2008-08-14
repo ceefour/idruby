@@ -1,0 +1,50 @@
+-
+  name: Aptana Studio Community Edition for Windows
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: Aptana Studio Community Edition for Linux
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: RadRails plugin for Aptana
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: Ruby One-Click Installer for Windows v1.8
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: Ruby tgz latest v1.8
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: Ruby tgz latest v1.9
+  description:
+  folder:
+  url:
+  filename:
+# Please add
+# Gems: rake, rails, active*, action*, mongrel, piston, capistrano, net-ssh, net-sftp, mongrel_cluster, ruby-debug-ide, (please add)
+-
+  name: Programming Ruby (Pickaxe) E-book
+  description:
+  folder:
+  url:
+  filename:
+-
+  name: Why's Poignant Guide to Ruby E-book
+  description:
+  folder:
+  url:
+  filename:
