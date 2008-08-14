@@ -1,11 +1,16 @@
 <h1>Listing rules</h1>
 
-<table>
+<table border="1" >
   <tr>
+  	<td>Name</td>
+    <td>Days</td>
+	<td colspan="3">Operations </td>
   </tr>
 
 <% for rule in @rules %>
   <tr>
+  	<td><%= rule.name %></td>
+    <td><%= rule.days %></td>
     <td><%= link_to 'Show', rule %></td>
     <td><%= link_to 'Edit', edit_rule_path(rule) %></td>
     <td><%= link_to 'Destroy', rule, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -2,10 +2,19 @@
 
 <table>
   <tr>
+  	<td> Name </td>
+    <td> Address </td>
+    <td> Contact Person </td>
+    <td> Phone Number </td>
+	<td colspan="3">Operations</td>
   </tr>
 
 <% for publisher in @publishers %>
   <tr>
+  	<td><%= publisher.name %></td>
+    <td><%= publisher.address %></td>
+    <td><%= publisher.contactPerson %></td>
+    <td><%= publisher.phoneNumber %></td>
     <td><%= link_to 'Show', publisher %></td>
     <td><%= link_to 'Edit', edit_publisher_path(publisher) %></td>
     <td><%= link_to 'Destroy', publisher, :confirm => 'Are you sure?', :method => :delete %></td>

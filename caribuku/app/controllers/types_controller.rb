@@ -1,4 +1,5 @@
 class TypesController < ApplicationController
+  layout 'default'
   # GET /types
   # GET /types.xml
   def index

@@ -1,3 +1,7 @@
-
+<% for column in Rule.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @rule.send(column.name) %>
+</p>
+<% end %>
 <%= link_to 'Edit', edit_rule_path(@rule) %> |
 <%= link_to 'Back', rules_path %>

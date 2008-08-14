@@ -1,4 +1,5 @@
 class BorrowsController < ApplicationController
+  layout 'default'
   # GET /borrows
   # GET /borrows.xml
   def index

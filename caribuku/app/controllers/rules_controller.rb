@@ -1,4 +1,5 @@
 class RulesController < ApplicationController
+  layout 'default'
   # GET /rules
   # GET /rules.xml
   def index

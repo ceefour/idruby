@@ -1,4 +1,5 @@
 class PublishersController < ApplicationController
+  layout 'default'
   # GET /publishers
   # GET /publishers.xml
   def index
