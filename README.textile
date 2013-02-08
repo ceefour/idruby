@@ -1,0 +1,109 @@
+h1. id-ruby
+
+id-ruby related open source artifacts.
+
+Membership is always open.
+
+Projek ini bertujuan mengumpulkan dokumen2 yang berguna untuk Ruby di Indonesia, antara lain:
+
+1. Slide presentasi
+2. Example codes
+3. "SOP" (Standard Operating Procedures) untuk workshop, seminar, dll.
+4. Script untuk pembuatan CD/DVD offline
+
+Learning Resources
+
+1. RubyLearning blog. http://rubylearning.com/blog/
+2. RubyLearning LMS / online class (free). http://www.rubylearning.org/class/
+3. RubyLearning sites. http://rubylearning.com/
+4. Ruby tutorial syllabus. http://rubylearning.com/satishtalim/tutorial.html
+5. RubyLearning ebook ($9.95). http://book.rubylearning.org/
+6. Learning Ruby on Rails (free and good). http://www.buildingwebapps.com/
+7. Ruby on Rails Wiki (sometimes still down). http://wiki.rubyonrails.org
+
+h2. Struktur
+
+logo
+
+  Logo-logo.
+
+slide
+
+  Slide/presentasi dalam bentuk PowerPoint, PDF, maupun OpenOffice.
+
+offline
+
+  Script/daftar URL untuk pembuatan CD/DVD/flashdrive/memorycard offline.
+  Diharapkan script dalam format yang platform-neutral alias pakai Ruby.
+
+marketing
+
+  Marketing tools, brosur, leaflet, booklet.
+
+ebook
+
+  Buku-buku (khusus free/OSS).
+
+sample
+
+  Sample projects untuk workshop.
+
+h2. CariBuku (Sample Project)
+
+Platform: JRuby on Rails 2.1, SQLite3
+
+Plugins:
+
+1. rspec
+2. restful_authentication
+3. Paperclip: http://www.thoughtbot.com/projects/paperclip
+4. acts_as_ferret plugin + ferret gem
+
+Models:
+
+1. User
+2. Book: title, author, description, publisher, isbn, added_by (User), created_at, updated_at
+3. Attachment
+
+Fungsi/Use Case:
+
+1. User sign up
+2. User login
+3. Visitor view buku
+4. Visitor search buku
+5. User add buku -- pake validations
+6. User edit buku, harus yg milik dia -- pake validations
+7. User upload gambar untuk buku (Paperclip)
+8. User delete buku, harus yg milik dia
+9. Tampilan/CSS ambil yg open source/free
+
+Additional requirements:
+
+1. rspec untuk unit testing / BDD (Behavior Driven Development)
+2. Migrations
+
+Thoughts:
+
+1. Piston perlu dipake gak yah? (i.e. script/plugin install -x trus piston convert) --> sebenarnya perlu tapi hal ini hanya bisa dilakukan jikalau proyek sudah pakai SVN... (dan hanya kalo pake SVN, bukan git dll.) jadi kayanya kesimpulannya gak usah
+
+h2. Event Best Practices
+
+Online Webapp for Event Management
+
+1. http://upcoming.yahoo.com
+2. http://www.setdot.com/about-service.html
+3. www.meetup.com (not free! $19/mo)
+
+Non-Ruby
+
+1. Drupal Event Organizer Kit: http://acquia.com/drupal-event-organizer-kit
+2. Drupal Conference Organizing Distribution for web site (install profile available?). http://groups.drupal.org/conference-organizing-distribution
+3. Example: NASA CoLab: http://conference.nasacolab.org/
+
+Possibly OOT
+
+1. http://www.seac.org/resources/onlineresources
+
+General
+
+1. http://www.directeventplanning.com/
